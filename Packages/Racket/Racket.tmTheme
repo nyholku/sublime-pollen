@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>name</key>
+   <string>A Racket Theme</string>
+   <key>settings</key>
+   <array>
+
+
+ 
+   <dict>
+      <key>name</key>
+      <string>Comment</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+  <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>keyword</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#00FF00</string>
+      </dict>
+   </dict>
+
+  <dict>
+      <key>name</key>
+      <string>Constant</string>
+      <key>scope</key>
+      <string>entity.name</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#0000FF</string>
+      </dict>
+   </dict>
+
+
+   </array>
+   <key>uuid</key>
+   <string>D8D5E82E-3D5B-46B5-B38E-8C841C213471</string>
+</dict>
+</plist>

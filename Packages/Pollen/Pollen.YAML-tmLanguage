@@ -1,0 +1,103 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Pollen
+scopeName: source.pollen
+fileTypes: [html.pm]
+uuid: 61d7d238-4fc2-4c6b-937a-69f03ff9e408
+
+
+
+repository:
+  string:
+    begin:   (\#px|\#rx)?(\#)?\"
+    name: opening-string-quote.pollen
+    end:     \"
+    name: closing-string-quote.pollen
+    patterns:
+    - name: string.pollen
+      match:  ([^"\\]|\\.|\\\\)*
+
+  racket-arguments: 
+    begin: (\[)
+    beginCaptures:
+      '1': {name: opening-bracket.pollen}
+    end: (\])
+    endCaptures:
+      '1': {name: closing-bracket.pollen}
+    contentName: racket-arguments.pollen
+    patterns:
+    - include: '#string'
+    - include: '#racket-expression'
+    - include: '#racket-arguments'
+
+
+
+  racket-expression: 
+    begin: (\()
+    beginCaptures:
+      '1': {name: opening-parenthes.pollen}
+    end: (\))
+    endCaptures:
+      '1': {name: closing-parenthes.pollen}
+    contentName: keyword.pollen
+    patterns:
+    - include: '#string'
+    - include: '#racket-arguments'
+    - include: '#racket-expression'
+
+  racket-command:
+    begin: (\◊)(\()
+    beginCaptures:
+      '1': {name: lozenge.pollen}
+      '2': {name: opening-parenthes.pollen}
+    end: (\))
+    endCaptures:
+      '1': {name: closing-parenthes.pollen}
+    contentName: keyword.pollen
+    patterns:
+    - include: '#string'
+    - include: '#racket-arguments'
+    - include: '#racket-expression'
+
+
+
+  text-command:
+    begin: (\◊)(.*)(\{)
+    beginCaptures:
+      '1': {name: lozenge.pollen}
+      '2': {name: keyword.pollen}
+      '3': {name: opening-bracket.pollen}
+    end: (\})
+    endCaptures:
+      '1': {name: closing-bracket.pollen}
+    contentName: title.pollen
+
+  text-command2:
+    match: (\◊)([^\s]+)
+    captures:
+      '1': {name: lozenge.pollen}
+      '2': {name: keyword.pollen}
+
+  eol-comment:
+    begin: (\◊)(;.*)
+    beginCaptures:
+      '1': {name: lozenge.pollen}
+      '2': {name: comment.pollen}
+    end: ($)
+  
+
+  
+patterns:
+
+- include: '#eol-comment'
+- include: '#string'
+- include: '#racket-command'
+- include: '#text-command'
+- include: '#text-command2'
+- include: '#racket-arguments'
+
+
+
+ 
+
+

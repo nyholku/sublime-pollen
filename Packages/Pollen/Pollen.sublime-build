@@ -1,0 +1,5 @@
+ {
+    "cmd": [ "make"],
+    "selector": "text.html.pm",
+    "path": "/opt/local/bin:$PATH"
+}

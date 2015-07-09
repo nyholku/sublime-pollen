@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>name</key>
+   <string>A Pollen Theme</string>
+   <key>settings</key>
+   <array>
+
+<dict>
+      <key>name</key>
+      <string>Racket arguments</string>
+      <key>scope</key>
+      <string>racket-arguments.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#008000</string>
+      </dict>
+   </dict>
+
+
+   <dict>
+      <key>name</key>
+      <string>String opening quote</string>
+      <key>scope</key>
+      <string>opening-string-quote.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF00FF</string>
+      </dict>
+   </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Closing string quote</string>
+      <key>scope</key>
+      <string>closing-string-quote.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF00FF</string>
+      </dict>
+   </dict>
+
+
+   <dict>
+      <key>name</key>
+      <string>String</string>
+      <key>scope</key>
+      <string>string.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF00FF</string>
+      </dict>
+   </dict>
+
+   <dict>
+      <key>name</key>
+      <string>Bracketed list</string>
+      <key>scope</key>
+      <string>bracketed-list.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FFFF00</string>
+      </dict>
+   </dict>
+
+   <dict>
+      <key>name</key>
+      <string>Opening bracket</string>
+      <key>scope</key>
+      <string>opening-bracket.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+   <dict>
+      <key>name</key>
+      <string>Closing bracket</string>
+      <key>scope</key>
+      <string>closing-bracket.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+   <dict>
+      <key>name</key>
+      <string>Opening parenthes</string>
+      <key>scope</key>
+      <string>opening-parenthes.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+   <dict>
+      <key>name</key>
+      <string>Closing parenthes</string>
+      <key>scope</key>
+      <string>closing-parenthes.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+   <dict>
+      <key>name</key>
+      <string>keyword</string>
+      <key>scope</key>
+      <string>keyword</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#00FF00</string>
+      </dict>
+   </dict>
+
+ <dict>
+      <key>name</key>
+      <string>constant</string>
+      <key>scope</key>
+      <string>constant</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+ <dict>
+      <key>name</key>
+      <string>entity.name</string>
+      <key>scope</key>
+      <string>entity.name</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#00FF00</string>
+      </dict>
+   </dict>
+
+ <dict>
+      <key>name</key>
+      <string>identifier</string>
+      <key>scope</key>
+      <string>identifier</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FFF00</string>
+      </dict>
+   </dict>
+
+
+   <dict>
+      <key>name</key>
+      <string>Pollen Expression</string>
+      <key>scope</key>
+      <string>keyword.other.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#00FF00</string>
+      </dict>
+   </dict>
+
+  <dict>
+      <key>name</key>
+      <string>Pollen Expression 2</string>
+      <key>scope</key>
+      <string>constant.numeric.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+ <dict>
+      <key>name</key>
+      <string>Pollen Expression 3</string>
+      <key>scope</key>
+      <string>red.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF0000</string>
+      </dict>
+   </dict>
+
+ <dict>
+      <key>name</key>
+      <string>Pollen Expression 4</string>
+      <key>scope</key>
+      <string>green.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#00FF00</string>
+      </dict>
+   </dict>
+
+ <dict>
+      <key>name</key>
+      <string>Pollen Expression 4</string>
+      <key>scope</key>
+      <string>magenta.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF00FF</string>
+      </dict>
+   </dict>
+
+<dict>
+      <key>name</key>
+      <string>Pollen Expression 5</string>
+      <key>scope</key>
+      <string>blue.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#0000FF</string>
+      </dict>
+   </dict>
+
+<dict>
+      <key>name</key>
+      <string>Chapter</string>
+      <key>scope</key>
+      <string>title.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>"fontFace"</key>
+         <string> "Helvetica Neue" </string>
+         <key>fontStyle</key>
+         <string>bold</string> 
+         <key>foreground</key>
+         <string>#000000</string>
+      </dict>
+   </dict>
+
+<dict>
+      <key>name</key>
+      <string>Comment</string>
+      <key>scope</key>
+      <string>comment.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#B0B0B0</string>
+      </dict>
+   </dict>
+
+<dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>keyword.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#0000FF</string>
+      </dict>
+   </dict>
+
+<dict>
+      <key>name</key>
+      <string>Lozenge</string>
+      <key>scope</key>
+      <string>lozenge.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#8080FF</string>
+      </dict>
+   </dict>
+
+<dict>
+      <key>name</key>
+      <string>Racket</string>
+      <key>scope</key>
+      <string>racket.pollen</string>
+      <key>settings</key>
+      <dict>
+         <key>foreground</key>
+         <string>#FF8080</string>
+      </dict>
+   </dict>
+
+
+   </array>
+   <key>uuid</key>
+   <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+</dict>
+</plist>
